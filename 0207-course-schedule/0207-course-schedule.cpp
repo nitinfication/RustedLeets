@@ -15,7 +15,7 @@ class Solution {
               else if(isAnc[v])
               {
                   ans = true;
-                  cout << v << ' ' << (src == v) << '\n';
+                  // cout << v << ' ' << (src == v) << '\n';
                   return;
               }
               
