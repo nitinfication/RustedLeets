@@ -13,13 +13,13 @@ class Solution {
         var prev: ListNode? = nil
         var curr = head
         var next: ListNode?
-        
-        while curr != nil {
+
+    while curr != nil {
         next = curr?.next
-            curr?.next = prev
-            prev = curr
-            curr = next
-        }
+        curr?.next = prev
+        prev = curr
+        curr = next
+    }
         return prev
     }
 }
